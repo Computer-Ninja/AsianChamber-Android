@@ -1,89 +1,18 @@
-# Release Notes
+# AsianChamber App
 
-### 2015-10-15
+AsianChamber is a business directory app for [Asian American Chamber of Commerce](https://www.asian-americanchamber.org/) serving businesses in DC/MD/VA tri-state region.
 
-* All fragments have been updated to support lib fragments.
-* All activities are now AppCompat
-* Dagger is updated to Dagger 2
-* ButterKnife has been updated to 7.0.1
-* Timer notification now shows the timer in the notification (useful for when someone does not have the app open)
-* No ETA on the Material and RxJava implementation other than "when there is time". That magical time is wild stuff.
+### 2016-02-06
 
-# UPDATE: 2014-11-18
+* Initial commit
 
-* Asian Chamber is now API 15+ only.
-* I will also be implementing RxJava, Material design and a few other things into this app as well.
-There will be *no upgrade path* as Asian Chamber is mean to act as a starting point for Android Applications.
-
-# Asian Chamber App
-
-[![Build Status](https://travis-ci.org/AndroidBootstrap/com-lnidigitalmarketing-aacc.svg?branch=master)](https://travis-ci.org/AndroidBootstrap/com-lnidigitalmarketing-aacc)
-
-This repository contains the source code for the [Asian Chamber](http://www.androidbootstrap.com/)
-Android app available from [Google Play](https://play.google.com/store/apps/details?id=com.lnidigitalmarketing.aacc).
-
-Please see the [issues](https://github.com.lnidigitalmarketing.aacc/com-lnidigitalmarketing-aacc/issues) section
-to report any bugs or feature requests and to see the list of known issues.
-
-Have a questions about Asian Chamber? Ask away on the [com-lnidigitalmarketing-aacc discussion forum](https://groups.google.com/forum/#!forum/com-lnidigitalmarketing-aacc).
-
-<a href="https://play.google.com/store/apps/details?id=com.lnidigitalmarketing.aacc" alt="Download from Google Play">
-  <img src="http://f.cl.ly/items/3V0K1s1i402W0c193v2w/Image%202013.07.08%201%3A45%3A25%20PM.png">
-</a>
-
-<a href="https://play.google.com/store/apps/details?id=com.lnidigitalmarketing.aacc" alt="Download from Google Play">
-  <img src="http://f.cl.ly/items/0e3T2F2x3M0K2l1X0A0u/Image%202013.07.08%201%3A46%3A09%20PM.png">
-</a>
-
-## HOW TO
-Learn how to develop with IntelliJ and Gradle.
-
-## Authentication
-Log into this demo app with the following credentials:
-
-user: demo@androidbootstrap.com
-
-password: android
-
-
-## Generating your Bootstrap App
-Why generate? Simple ... renaming files, folders, copy and pasting is SUPER error prone and well... it sucks overall.
-This can easily take a few days with debugging if you run into issues and perform a lot of typo's.
-Using the generator on [AndroidBootstrap.com](http://www.androidbootstrap.com) you can generate your application
-with your application name as well as the package (and folder structure) that you want to work with.
-
-As an example, you know that you want your app name and package to the following:
-
-  - *App Name*: Notify
-  - *Package Name*: com.notify.app.mobile
-
-After generating the app on [AndroidBootstrap.com](http://www.androidbootstrap.com) the folder structure of the source
-code for the app will change:
-
-  - From: __com.lnidigitalmarketing.aacc__
-  - To: __com/notify/app/mobile__
-
-At that point all the source files that were located in ____com.lnidigitalmarketing.aacc__ will be moved to the
-new folder __com/notify/app/mobile__.
-
-All import statments that reference the old resources (__R.com.lnidigitalmarketing.aacc.R__) will now be renamed
-to the correct package. The artifact id's in the *pom.xml* (and various other places) will be replaced. The App Name
-will be replaced in the strings/etc.
-
-The end result is that you will be given a zip file with the correct structure. Open the zip and then execute the
-*./gradlew* command and your app should be ready for development.
-
-Enjoy!
-
-The application
 
 ## License
 
 * [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 
-Copyright 2014 Donn Felker
-Copyright 2014 GitHub Inc.
+Copyright 2016 Seong Bae
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
